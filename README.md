@@ -16,7 +16,7 @@ brew install git
 ```bash
 # remote
 python legacy.py
-brew install python
+brew link python
 python3 main.py
 ```
 
