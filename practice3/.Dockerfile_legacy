@@ -1,0 +1,5 @@
+FROM python:2.7.18
+
+WORKDIR /
+
+CMD ["python", "-m", "SimpleHTTPServer", "8080"]
