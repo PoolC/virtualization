@@ -14,11 +14,10 @@
 
 ```bash
 brew link python  # python3 설치
-ln -s ~/.linuxbrew/bin/python3 ~/.linuxbrew/bin/python
 python -m http.server YOUR_PORT &
 ps aux | grep python  # python3 가 최신 코드를 따로 실행시키고 있다
 
-python main.py YOUR_NAME
+python3 main.py YOUR_NAME
 ```
 
 ## 문제
